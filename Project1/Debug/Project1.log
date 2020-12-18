@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/11/23 17:32:29。
+     1>项目“F:\C++\Project1\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AES.cpp Base64.cpp Main.cpp
+         Main.cpp
+     1>f:\c++\project1\project1\main.cpp(58): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+     1>f:\c++\project1\project1\main.cpp(61): warning C4018: “>=”: 有符号/无符号不匹配
+         Base64.cpp
+         AES.cpp
+     1>f:\c++\project1\project1\aes.cpp(1): fatal error C1083: 无法打开包括文件: “gnu/stubs-32.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“F:\C++\Project1\Project1\Project1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.96
